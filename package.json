@@ -2,7 +2,24 @@
   "name": "chat-redes2",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --inspect --exec babel-node -- src/index.js",
+    "start": "nodemon --exec babel-node -- src/index.js",
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js"
+  },
   "repository": "git@github.com:tonwell/chat-redes2.git",
   "author": "Well",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "nodemon": "^1.19.4"
+  }
 }
