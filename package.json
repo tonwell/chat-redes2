@@ -1,0 +1,8 @@
+{
+  "name": "chat-redes2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tonwell/chat-redes2.git",
+  "author": "Well",
+  "license": "MIT"
+}
