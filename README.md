@@ -23,3 +23,5 @@ Rodando a aplicação:
     yarn build
     yarn serve
 ```
+
+Servidor inicia na porta 8080 por default.
